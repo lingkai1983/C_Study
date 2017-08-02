@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void soup();
+void soup(void);
 
 int main()
 {
