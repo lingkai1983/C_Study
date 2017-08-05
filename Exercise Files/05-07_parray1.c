@@ -2,17 +2,18 @@
 
 int main()
 {
-	char *gang[5] = {
+	char *gang[6] = {
 		"Spanky",
 		"Buckwheat",
 		"Alfalfa",
 		"Darla",
-		"Pete the Pup"
+		"Pete the Pup",
+		"Lingkai"
 	};
 	int x;
 
-	for(x=0;x<5;x++)
-		printf("%s\n",gang[x]);
+	for(x=0;x<6;x++)
+		printf("%p\n",gang[x]);
 
 	return(0);
 }

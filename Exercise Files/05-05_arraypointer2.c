@@ -11,7 +11,7 @@ int main()
 	for(x=0;x<4;x++)
 	{
 		printf("Element %d: %d\n",x+1,*aptr);
-		aptr++;
+		aptr = aptr +1;
 	}
 
 	return(0);

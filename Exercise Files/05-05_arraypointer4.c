@@ -4,11 +4,14 @@ int main()
 {
 	char *string = "I'm just a normal string.\n";
 	int x = 0;
+	char *ptr;
 
-	while(string[x])
+	ptr = string;
+
+	while(*ptr)
 	{
-		putchar(string[x]);
-		x++;
+		putchar(*ptr);
+		ptr++;
 	}
 
 	return(0);

@@ -37,7 +37,7 @@ int main()
         }
 		fill_structure(current);
 	}
-	current->next = NULL;
+	//current->next = NULL;
 
 	current = first;		/* reset the list */
 	while(current)

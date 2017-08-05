@@ -18,7 +18,7 @@ int main()
 	}
 
 	printf("Enter your birth year: ");
-	scanf("%d",&birthday->year);
+	scanf("%d",&birthday->year); // birthday->year is not a pointer, thus & is needed
 	printf("Enter your birth month: ");
 	scanf("%d",&birthday->month);
 	printf("Enter your birth day: ");

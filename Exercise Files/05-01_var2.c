@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a;
+	double a;
 
 	printf("An int variable occupies %lu bytes of storage\n",sizeof(a));
 
