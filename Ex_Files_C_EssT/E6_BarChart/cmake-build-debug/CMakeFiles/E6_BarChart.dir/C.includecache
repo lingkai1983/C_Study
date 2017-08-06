@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CS/Github/C_Study/Ex_Files_C_EssT/E6_BarChart/main.c
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+
