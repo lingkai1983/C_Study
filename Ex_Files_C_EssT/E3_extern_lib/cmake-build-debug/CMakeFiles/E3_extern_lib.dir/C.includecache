@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CS/Github/C_Study/Ex_Files_C_EssT/E3_extern_lib/07_02.c
+stdio.h
+-
+stdlib.h
+-
+libs/calc.h
+E:/CS/Github/C_Study/Ex_Files_C_EssT/E3_extern_lib/libs/calc.h
+
+E:/CS/Github/C_Study/Ex_Files_C_EssT/E3_extern_lib/libs/calc.c
+stdio.h
+-
+
+E:/CS/Github/C_Study/Ex_Files_C_EssT/E3_extern_lib/libs/calc.h
+
