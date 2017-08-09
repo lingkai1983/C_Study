@@ -1,0 +1,3 @@
+C:/Github/C_Study/Ex_Files_C_EssT/Ex8_File/cmake-build-debug/CMakeFiles/Ex8_File.dir
+C:/Github/C_Study/Ex_Files_C_EssT/Ex8_File/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Github/C_Study/Ex_Files_C_EssT/Ex8_File/cmake-build-debug/CMakeFiles/rebuild_cache.dir

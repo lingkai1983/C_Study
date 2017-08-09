@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : 13_02.c
- Author      : 
+ Author      :
  Version     :
  Copyright   : Your copyright notice
  Description : Data management using random access files, Ansi-style
@@ -32,6 +32,7 @@ void readAndVerify(){
 
 	// open the file for read/write using the w+ directive
 	  // Change to match your path
+    fp = fopen("message","w+");
 	fwrite(messageToWrite, strlen(messageToWrite)+1, 1, fp);
 
 	// Go back to the beginning of the file using fseek
@@ -39,9 +40,9 @@ void readAndVerify(){
 
 	// Verify that the message has been written by reading the file
 	// Read the same number of characters as the ones written above
-	fread(textBuffer, strlen(messageToWrite)+1, 1, fp);
+//	fread(textBuffer, strlen(messageToWrite)+1, 1, fp);
 
-	printf("%s\n", textBuffer);
+//	printf("%s\n", textBuffer);
 	fclose(fp);
 }
 
