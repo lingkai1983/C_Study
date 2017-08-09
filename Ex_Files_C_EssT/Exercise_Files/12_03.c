@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : 12_03.c
- Author      : 
+ Author      :
  Version     :
  Copyright   : Your copyright notice
  Description : Using structures as complex variables, Ansi-style
@@ -53,7 +53,8 @@ void populateArrayOfStructs(void){
 		srand(time(NULL));   // Seed the random number generator with current time
 
 		// Populate the team array with random values from the bank of data
-		for(int i=0; i<MAX_TEAMS; i++){
+		int i =0;
+		for(i=0; i<MAX_TEAMS; i++){
 			int rF = rand() % MAX_NAMES;  // choose a random position for the array of first names
 			int rL = rand() % MAX_NAMES;  // choose a random position for the array of last names
 			int rC = rand() % MAX_COLORS;   // choose a random position for the array of eye colors
@@ -67,7 +68,8 @@ void populateArrayOfStructs(void){
 
 void printStructure(void){
 	// Print a nicely formatted table
-	for(int i=0; i<MAX_TEAMS; i++){
+	int i;
+	for(i=0; i<MAX_TEAMS; i++){
 	printf("First name:[%8s] ",teams[i].firstName);
 	printf("Last name:[%9s] ",teams[i].lastName);
 	printf("Age:[%3d] ",teams[i].age);
