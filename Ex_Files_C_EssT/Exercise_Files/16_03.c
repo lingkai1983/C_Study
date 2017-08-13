@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : 16_03.c
- Author      : 
+ Author      :
  Version     :
  Copyright   : Your copyright notice
  Description : Implementing debugging techniques, Ansi-style
@@ -18,7 +18,7 @@
 
 // Globals
 
-int debugFlag = DEBUG_OFF;
+int debugFlag = DEBUG_ON;
 
 // Prototypes
 void someFunction1(int,int);
