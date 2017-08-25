@@ -20,7 +20,7 @@ int main()
 
 	i = 0;
 	int *ptr;
-	ptr = f;
+	ptr = &a[0][0];
 	for (i=0; i<6; i++){
         printf("%p : %d\n",ptr,*ptr);
         ptr++;
